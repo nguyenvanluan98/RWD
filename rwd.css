@@ -1,0 +1,74 @@
+.trai{
+    width: 25%;
+    height: 600px;
+    background: aquamarine;
+    float: left;
+    translate: 0.2s;
+    
+}
+.giua{
+    width: 50%;
+    height: 600px;
+    background: rgb(227, 255, 127);
+    float: left;
+    translate: 0.2s;
+}
+.phai{
+    width: 25%;
+    height: 600px;
+    background: rgb(108, 184, 158);
+    float: left;
+    translate: 0.4s;
+}
+@media screen and (max-width: 992px) {
+    .trai{
+        width: 0%;
+    }
+
+    .giua{
+        width: 65%;
+        background-color: black;
+    }
+    .phai{
+        width: 35%;
+        display: inline;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .trai{
+        width: 0%;
+    }
+
+    .giua{
+        width: 100%;
+        background-color: black;
+    }
+    .phai{
+        width: 0%;
+        display: inline;
+        
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .trai{
+        width: 0%;
+    }
+
+    .giua{
+        width: 100%;
+        background-color: black;
+    }
+    .phai{
+        width: 0%;
+        display: inline;
+        
+    }
+}
+@media only screen and (max-width: 500px){
+    body{
+        background-color: lawngreen;
+    }
+}
